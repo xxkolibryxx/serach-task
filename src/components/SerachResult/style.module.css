@@ -1,0 +1,18 @@
+.searchResultBox {
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.16);
+	margin-top: 14px;
+	padding: 20px 16px;
+	border-radius: 5px;
+	max-height: 600px;
+	overflow-y: auto;
+}
+.searchResultBoxItem:not(:first-child) {
+	border-top: 1px solid #f5f5f6;
+}
+.searchResultBoxItem {
+	margin-top: 20px;
+}
+.searchResultBoxTitle {
+	margin-bottom: 20px;
+    margin-top: 12px;
+}

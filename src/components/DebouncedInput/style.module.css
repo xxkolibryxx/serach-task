@@ -1,0 +1,11 @@
+.input{
+    width: 100%;
+    border: unset;
+    outline: none;
+    margin-left: 12px;
+}
+.input_group{
+    display: flex;
+    border: 1px solid #e1e1e1;
+    padding: 11px 16px;
+}
