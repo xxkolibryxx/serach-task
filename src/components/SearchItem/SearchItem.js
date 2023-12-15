@@ -60,7 +60,6 @@ const SearchItem = ({ item, type = '' }) => {
 	) {
 		const { name, price, company, images } = item;
 		const image = images.length > 0 ? images[0] : ShopIcon;
-		console.log(item);
 		return (
 			<div className={classes.searchItem}>
 				<div className={classes.searchItemProductImage}>
